@@ -5,9 +5,9 @@ import java.awt.event.*;
 public class Reversi implements ActionListener 
 {
 	//Set up variables
-   int x = -1, y = -1;
-   Drawing draw = new Drawing();
-   boolean valid=false;
+    int x = -1, y = -1;
+    Drawing draw = new Drawing();
+    boolean valid=false;
 	int [][]backup=new int [8][8];
 	int [][]box=new int [8][8];
 	int num1;
